@@ -9,9 +9,16 @@ body, html {
 
 }
 
-.pimg1, .pimg2, .pimg3{
+  .pimg1 {
+    position:relative;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pimg2, .pimg3{
   position:relative;
-  opacity:0.70;
+  opacity:0.80;
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +32,7 @@ body, html {
 }
 
 .pimg1{
-  background-image: url('../img/city-day1.jpg');
+  background-image: url('../img/city-day2.jpeg');
   min-height: 100%;
 
 }
@@ -37,7 +44,7 @@ body, html {
 }
 
 .pimg3{
-  background-image: url('../img/city-night1.jpeg');
+  background-image: url('../img/city-night2.jpeg');
   min-height: 400px;
 
 }
@@ -74,9 +81,13 @@ body, html {
   padding:20px;
 }
 
+/* --- Border around text inside of pictures ---
+
 .ptext .border.trans{
   background-color: transparent;
 }
+
+--- un-comment for no border around text in pictures --- */
 
 
 @media(max-width:568px){
